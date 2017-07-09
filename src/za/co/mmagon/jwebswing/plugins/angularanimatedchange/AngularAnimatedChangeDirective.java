@@ -18,7 +18,7 @@ public class AngularAnimatedChangeDirective extends AngularDirectiveBase
      */
     public AngularAnimatedChangeDirective()
     {
-        super("ZoomIn");
+        super("AngularAnimatedChange");
     }
 
     @Override
