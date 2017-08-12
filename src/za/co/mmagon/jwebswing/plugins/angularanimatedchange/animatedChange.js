@@ -1,4 +1,5 @@
 JW_APP_NAME.directive('animatedChange', animatedChange);
+
 function animatedChange($timeout) {
     return {
         link: function (scope, element) {
