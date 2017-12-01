@@ -9,9 +9,9 @@ import za.co.mmagon.jwebswing.base.angular.directives.AngularDirectiveBase;
  */
 public class AngularAnimatedChangeDirective extends AngularDirectiveBase
 {
-	
+
 	private static final long serialVersionUID = 1L;
-	
+
 	/*
 	 * Constructs a new AngularAnimatedChangeDirective
 	 */
@@ -19,10 +19,10 @@ public class AngularAnimatedChangeDirective extends AngularDirectiveBase
 	{
 		super("AngularAnimatedChange");
 	}
-	
+
 	@Override
 	public String renderFunction()
 	{
-		return FileTemplates.getFileTemplate(AngularAnimatedChangeDirective.class, "animatedChange.min").toString();
+		return FileTemplates.getFileTemplate(AngularAnimatedChangeDirective.class, "animatedChange", "animatedChange.js").toString();
 	}
 }
