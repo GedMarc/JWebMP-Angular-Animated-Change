@@ -60,8 +60,8 @@ public class AngularAnimatedChangePageConfigurator extends PageConfigurator
 	{
 		if (!page.isConfigured())
 		{
-			JQueryPageConfigurator.setRequired(page.getBody(), true);
-			AngularPageConfigurator.setRequired(page.getBody(), true);
+			JQueryPageConfigurator.setRequired(true);
+			AngularPageConfigurator.setRequired(true);
 			page.getAngular().getAngularDirectives().add(new AngularAnimatedChangeDirective());
 		}
 		return page;
