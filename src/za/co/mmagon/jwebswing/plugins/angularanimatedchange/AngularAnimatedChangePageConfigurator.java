@@ -21,8 +21,7 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularZoomInAnimation.jar/download"
-)
+		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularZoomInAnimation.jar/download")
 @ComponentInformation(name = "Angular Animated Change",
 		description = "Apply an animation to changing values with this angular directive",
 		url = "https://www.akveo.com/products.html")
@@ -31,8 +30,8 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
  *
  * @author Marc Magon
  * @since 16 Jun 2017
- */
-public class AngularAnimatedChangePageConfigurator extends PageConfigurator
+ */ public class AngularAnimatedChangePageConfigurator
+		extends PageConfigurator
 {
 
 	private static final long serialVersionUID = 1L;
@@ -62,7 +61,6 @@ public class AngularAnimatedChangePageConfigurator extends PageConfigurator
 		{
 			JQueryPageConfigurator.setRequired(true);
 			AngularPageConfigurator.setRequired(true);
-			page.getAngular().getAngularDirectives().add(new AngularAnimatedChangeDirective());
 		}
 		return page;
 	}
