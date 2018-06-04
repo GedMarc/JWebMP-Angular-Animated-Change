@@ -28,7 +28,7 @@ import com.jwebmp.plugins.jquery.JQueryPageConfigurator;
 
 @PluginInformation(pluginName = "Angular Animated Change",
 		pluginDescription = "Changes values with an animation",
-		pluginUniqueName = "jwebswing-angular-animated-change",
+		pluginUniqueName = "jwebswing-angular-animatedchange",
 		pluginVersion = "1.0.0",
 		pluginCategories = "angular,animation,zoom, ui,web ui, framework",
 		pluginSubtitle = "Apply an animation to changing values with this angular directive",
