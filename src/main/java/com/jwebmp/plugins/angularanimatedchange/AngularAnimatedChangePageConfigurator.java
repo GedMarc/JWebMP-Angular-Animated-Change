@@ -25,7 +25,6 @@ import com.jwebmp.plugins.ComponentInformation;
 import com.jwebmp.plugins.PluginInformation;
 import com.jwebmp.plugins.jquery.JQueryPageConfigurator;
 
-
 @PluginInformation(pluginName = "Angular Animated Change",
 		pluginDescription = "Changes values with an animation",
 		pluginUniqueName = "jwebswing-angular-animatedchange",
