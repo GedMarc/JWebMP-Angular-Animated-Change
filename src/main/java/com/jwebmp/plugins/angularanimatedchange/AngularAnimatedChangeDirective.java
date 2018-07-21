@@ -17,8 +17,8 @@
 
 package com.jwebmp.plugins.angularanimatedchange;
 
-import com.jwebmp.FileTemplates;
-import com.jwebmp.base.angular.directives.AngularDirectiveBase;
+import com.jwebmp.core.FileTemplates;
+import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
 
 /**
  * @author Marc Magon
