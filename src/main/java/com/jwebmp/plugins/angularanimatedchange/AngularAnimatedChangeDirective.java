@@ -19,6 +19,7 @@ package com.jwebmp.plugins.angularanimatedchange;
 
 import com.jwebmp.core.FileTemplates;
 import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
+import com.jwebmp.core.base.angular.services.IAngularDirective;
 
 /**
  * @author Marc Magon
@@ -26,6 +27,7 @@ import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
  */
 public class AngularAnimatedChangeDirective
 		extends AngularDirectiveBase
+		implements IAngularDirective<AngularAnimatedChangeDirective>
 {
 
 	private static final long serialVersionUID = 1L;

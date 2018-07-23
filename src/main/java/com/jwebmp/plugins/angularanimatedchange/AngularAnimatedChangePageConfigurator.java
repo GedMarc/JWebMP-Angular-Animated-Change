@@ -18,12 +18,12 @@
 package com.jwebmp.plugins.angularanimatedchange;
 
 import com.jwebmp.core.Page;
-import com.jwebmp.core.PageConfigurator;
 import com.jwebmp.core.base.ComponentHierarchyBase;
 import com.jwebmp.core.base.angular.AngularPageConfigurator;
 import com.jwebmp.core.plugins.ComponentInformation;
 import com.jwebmp.core.plugins.PluginInformation;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
+import com.jwebmp.core.services.IPageConfigurator;
 
 @PluginInformation(pluginName = "Angular Animated Change",
 		pluginDescription = "Changes values with an animation",
@@ -46,11 +46,8 @@ import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
  * @author Marc Magon
  * @since 16 Jun 2017
  */ public class AngularAnimatedChangePageConfigurator
-		extends PageConfigurator
+		implements IPageConfigurator
 {
-
-	private static final long serialVersionUID = 1L;
-
 	/*
 	 * Constructs a new AngularAnimatedChangePageConfigurator
 	 */
