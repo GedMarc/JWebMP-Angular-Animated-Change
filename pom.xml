@@ -47,7 +47,6 @@
             <artifactId>jwebmp-core</artifactId>
             <version>${project.version}</version>
             <classifier>${jwebmp.runtime.classifier}</classifier>
-            <optional>true</optional>
         </dependency>
 
         <dependency>
@@ -55,7 +54,6 @@
             <artifactId>jwebmp-angular-animate</artifactId>
             <version>${project.version}</version>
             <classifier>${jwebmp.runtime.classifier}</classifier>
-            <optional>true</optional>
         </dependency>
 
     </dependencies>
