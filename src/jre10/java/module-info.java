@@ -7,6 +7,7 @@ module com.jwebmp.plugins.angularanimatedchange {
 	exports com.jwebmp.plugins.angularanimatedchange;
 
 	requires com.jwebmp.core;
+	requires java.validation;
 
 	provides IPageConfigurator with AngularAnimatedChangePageConfigurator;
 	provides IAngularDirective with AngularAnimatedChangeDirective;

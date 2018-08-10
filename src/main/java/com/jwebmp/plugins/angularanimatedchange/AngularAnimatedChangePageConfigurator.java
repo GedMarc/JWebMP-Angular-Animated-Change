@@ -25,6 +25,8 @@ import com.jwebmp.core.plugins.PluginInformation;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 import com.jwebmp.core.services.IPageConfigurator;
 
+import javax.validation.constraints.NotNull;
+
 @PluginInformation(pluginName = "Angular Animated Change",
 		pluginDescription = "Changes values with an animation",
 		pluginUniqueName = "jwebswing-angular-animatedchange",
@@ -66,6 +68,7 @@ import com.jwebmp.core.services.IPageConfigurator;
 		component.addClass("zoomIn");
 	}
 
+	@NotNull
 	@Override
 	public Page configure(Page page)
 	{
