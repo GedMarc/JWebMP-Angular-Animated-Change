@@ -34,12 +34,13 @@ import javax.validation.constraints.NotNull;
 		pluginCategories = "angular,animation,zoom, ui,web ui, framework",
 		pluginSubtitle = "Apply an animation to changing values with this angular directive",
 		pluginSourceUrl = "https://www.akveo.com/products.html",
-		pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Animated-Change/wiki",
-		pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Animated-Change",
+		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Angular-Animated-Change/wiki",
+		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Angular-Animated-Change",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularZoomInAnimation.jar/download") @ComponentInformation(name = "Angular Animated Change",
+		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularZoomInAnimation.jar/download")
+@ComponentInformation(name = "Angular Animated Change",
 		description = "Apply an animation to changing values with this angular directive",
 		url = "https://www.akveo.com/products.html")
 /**
@@ -48,7 +49,7 @@ import javax.validation.constraints.NotNull;
  * @author Marc Magon
  * @since 16 Jun 2017
  */ public class AngularAnimatedChangePageConfigurator
-		implements IPageConfigurator
+		implements IPageConfigurator<AngularAnimatedChangePageConfigurator>
 {
 	/**
 	 * If this configurator is enabled
