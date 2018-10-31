@@ -30,7 +30,6 @@ public class AngularAnimatedChangeDirective
 		implements IAngularDirective<AngularAnimatedChangeDirective>
 {
 
-	private static final long serialVersionUID = 1L;
 
 	/*
 	 * Constructs a new AngularAnimatedChangeDirective
