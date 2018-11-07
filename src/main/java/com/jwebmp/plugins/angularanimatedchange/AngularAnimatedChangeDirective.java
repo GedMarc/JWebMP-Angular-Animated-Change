@@ -29,16 +29,19 @@ public class AngularAnimatedChangeDirective
 		extends AngularDirectiveBase
 		implements IAngularDirective<AngularAnimatedChangeDirective>
 {
-
-
-	/*
-	 * Constructs a new AngularAnimatedChangeDirective
+	/**
+	 * An actual function
 	 */
 	public AngularAnimatedChangeDirective()
 	{
 		super("AngularAnimatedChange");
 	}
 
+	/**
+	 * Overwrite the render function
+	 *
+	 * @return
+	 */
 	@Override
 	public String renderFunction()
 	{
