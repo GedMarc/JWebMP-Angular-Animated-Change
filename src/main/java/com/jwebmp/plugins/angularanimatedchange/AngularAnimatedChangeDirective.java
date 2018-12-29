@@ -19,15 +19,13 @@ package com.jwebmp.plugins.angularanimatedchange;
 
 import com.jwebmp.core.FileTemplates;
 import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
-import com.jwebmp.core.base.angular.services.IAngularDirective;
 
 /**
  * @author Marc Magon
  * @since 30 May 2017
  */
 public class AngularAnimatedChangeDirective
-		extends AngularDirectiveBase
-		implements IAngularDirective<AngularAnimatedChangeDirective>
+		extends AngularDirectiveBase<AngularAnimatedChangeDirective>
 {
 	/**
 	 * An actual function
