@@ -28,21 +28,21 @@ import com.jwebmp.core.services.IPageConfigurator;
 import jakarta.validation.constraints.NotNull;
 
 @PluginInformation(pluginName = "Angular Animated Change",
-		pluginDescription = "Changes values with an animation",
-		pluginUniqueName = "jwebswing-angular-animatedchange",
+		pluginDescription = "Angular directive for applying an animation class to an element whenever a value changes. Useful for applying attention-calling animation like flashes or shakes.",
+		pluginUniqueName = "jwebmp-angular-animatedchange",
 		pluginVersion = "1.0.0",
 		pluginCategories = "angular,animation,zoom, ui,web ui, framework",
 		pluginSubtitle = "Apply an animation to changing values with this angular directive",
-		pluginSourceUrl = "https://www.akveo.com/products.html",
+		pluginSourceUrl = "https://github.com/bendrucker/angular-animate-change",
 		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Angular-Animated-Change/wiki",
 		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Angular-Animated-Change",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
-		pluginOriginalHomepage = "https://www.akveo.com/products.html",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularZoomInAnimation.jar/download")
+		pluginOriginalHomepage = "https://github.com/bendrucker/angular-animate-change",
+		pluginDownloadUrl = "https://mvnrepository.com/artifact/com.jwebmp.plugins.angular/jwebmp-angular-animated-change")
 @ComponentInformation(name = "Angular Animated Change",
 		description = "Apply an animation to changing values with this angular directive",
-		url = "https://www.akveo.com/products.html")
+		url = "https://github.com/bendrucker/angular-animate-change")
 /**
  * Allows for elements to have a zoom in animation by adding a class
  *
