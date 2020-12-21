@@ -27,9 +27,9 @@ import com.jwebmp.core.services.IPageConfigurator;
 
 import jakarta.validation.constraints.NotNull;
 
-@PluginInformation(pluginName = "Angular Animated Change",
+@PluginInformation(pluginName = "Animated Change",
 		pluginDescription = "Angular directive for applying an animation class to an element whenever a value changes. Useful for applying attention-calling animation like flashes or shakes.",
-		pluginUniqueName = "jwebmp-angular-animatedchange",
+		pluginUniqueName = "angular-animatedchange",
 		pluginVersion = "1.0.0",
 		pluginCategories = "angular,animation,zoom, ui,web ui, framework",
 		pluginSubtitle = "Apply an animation to changing values with this angular directive",
