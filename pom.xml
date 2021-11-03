@@ -10,7 +10,7 @@
     <groupId>com.jwebmp.plugins.angular</groupId>
     <artifactId>jwebmp-angular-animated-change</artifactId>
     <packaging>jar</packaging>
-
+    <version>0.0.0_0-SNAPSHOT</version>
     <name>Angular Auto Focus</name>
     <description>The JWebSwing implementation for Angular Auto Focus</description>
     <url>https://github.com/GedMarc/Angular-Auto-Focus</url>
