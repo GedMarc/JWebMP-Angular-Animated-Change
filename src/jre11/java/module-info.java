@@ -6,7 +6,7 @@ module com.jwebmp.plugins.angularanimatedchange {
 	requires com.jwebmp.core;
 	requires jakarta.validation;
 	requires com.guicedee.guicedinjection;
-	requires com.jwebmp.core.angularjs;
+	requires com.jwebmp.core.angular;
 
 	provides com.jwebmp.core.services.IPageConfigurator with com.jwebmp.plugins.angularanimatedchange.AngularAnimatedChangePageConfigurator;
 	provides com.jwebmp.core.base.angular.services.IAngularDirective with com.jwebmp.plugins.angularanimatedchange.AngularAnimatedChangeDirective;
